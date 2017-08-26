@@ -5,102 +5,133 @@
 {% endblock %}
 
 {% block main_content %}
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-5  col-md-3  main">
-                <h4>Area1</h4>
-                <div class="table-responsive">
-                    <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th>ip address</th>
-                            <th>port</th>
-                            <th>key</th>
-                            <th>method</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>35.194.169.33</td>
-                            <td>8388</td>
-                            <td>hello</td>
-                            <td>aes-256-cfb</td>
-                        </tr>
-                        </tbody>
-                    </table>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+                      <i class="fa fa-plus"></i> Creat new account
+                    </button>
+
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel"><i class="fa fa-address-card-o fa-lg"></i></h4>
+                                </div>
+                                <form action="#">
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary">Creat</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-5 col-md-3 main">
-                <h4>Area2</h4>
-                <div class="table-responsive">
-                    <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th>ip address</th>
-                            <th>port</th>
-                            <th>key</th>
-                            <th>method</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>35.194.169.33</td>
-                            <td>8388</td>
-                            <td>hello</td>
-                            <td>aes-256-cfb</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="col-sm-5 col-md-3 main">
-                <h4>Area3</h4>
-                <div class="table-responsive">
-                    <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th>ip address</th>
-                            <th>port</th>
-                            <th>key</th>
-                            <th>method</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>35.194.169.33</td>
-                            <td>8388</td>
-                            <td>hello</td>
-                            <td>aes-256-cfb</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            <div class="col-sm-5 col-md-3 main">
-                <h4>Area4</h4>
-                <div class="table-responsive">
-                    <table class="table table-striped">
-                        <thead>
-                        <tr>
-                            <th>ip address</th>
-                            <th>port</th>
-                            <th>key</th>
-                            <th>method</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>35.194.169.33</td>
-                            <td>8388</td>
-                            <td>hello</td>
-                            <td>aes-256-cfb</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                <div class="row">
+                    <div class="col-sm-5  col-md-3  main">
+                        <h4>Area1</h4>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th>ip address</th>
+                                    <th>port</th>
+                                    <th>key</th>
+                                    <th>method</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>35.194.169.33</td>
+                                    <td>8388</td>
+                                    <td>hello</td>
+                                    <td>aes-256-cfb</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-md-3 main">
+                        <h4>Area2</h4>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th>ip address</th>
+                                    <th>port</th>
+                                    <th>key</th>
+                                    <th>method</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>35.194.169.33</td>
+                                    <td>8388</td>
+                                    <td>hello</td>
+                                    <td>aes-256-cfb</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-md-3 main">
+                        <h4>Area3</h4>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th>ip address</th>
+                                    <th>port</th>
+                                    <th>key</th>
+                                    <th>method</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>35.194.169.33</td>
+                                    <td>8388</td>
+                                    <td>hello</td>
+                                    <td>aes-256-cfb</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-md-3 main">
+                        <h4>Area4</h4>
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th>ip address</th>
+                                    <th>port</th>
+                                    <th>key</th>
+                                    <th>method</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>35.194.169.33</td>
+                                    <td>8388</td>
+                                    <td>hello</td>
+                                    <td>aes-256-cfb</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
 {% endblock %}
 
 {% block scritps %}
